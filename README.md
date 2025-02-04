@@ -1,5 +1,17 @@
 # Receipt Processor
 
+## Building and Running Docker Image
+
+clone repository:
+git clone git@github.com:chrispestcode/receipt-processor-challenge.git
+cd receipt-processor-challenge
+
+To build:
+docker build -t receipt-processor .
+
+To run:
+docker run -p 3000:3000 receipt-processor
+
 Build a webservice that fulfils the documented API. The API is described below. A formal definition is provided 
 in the [api.yml](./api.yml) file. We will use the described API to test your solution.
 
