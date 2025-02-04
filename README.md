@@ -12,6 +12,10 @@ docker build -t receipt-processor .
 To run:
 docker run -p 3000:3000 receipt-processor
 
+To run tests:
+npm run test
+npm run test:e2e
+
 Build a webservice that fulfils the documented API. The API is described below. A formal definition is provided 
 in the [api.yml](./api.yml) file. We will use the described API to test your solution.
 
