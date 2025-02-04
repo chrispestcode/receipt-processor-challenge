@@ -1,0 +1,46 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "express-validator": "^7.2.1",
+    "redis": "^4.7.0"
+  },
+  "name": "receipt-processor-challenge",
+  "version": "1.0.0",
+  "description": "Receipt processor application",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest __tests__",
+    "test:e2e": "jest e2e/index.spec.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrispestcode/receipt-processor-challenge.git"
+  },
+  "keywords": [
+    "receipt",
+    "processor",
+    "crud"
+  ],
+  "author": "Tyree Chrisp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrispestcode/receipt-processor-challenge/issues"
+  },
+  "homepage": "https://github.com/chrispestcode/receipt-processor-challenge#readme",
+  "devDependencies": {
+    "@babel/core": "^7.26.7",
+    "@babel/preset-env": "^7.26.7",
+    "@babel/preset-react": "^7.26.3",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.9",
+    "supertest": "^7.0.0"
+  },
+  "type": "module"
+}
