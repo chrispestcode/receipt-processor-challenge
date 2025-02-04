@@ -1,6 +1,6 @@
-import ReceiptPoints from '../ReceiptPoints.mjs';
+import ReceiptPoints from '../src/ReceiptPoints.mjs';
 import {getRetailerPoints, getRoundedTotalPricePoints, getTotalPricePoints, 
-  getItemCountPoints, getItemDescriptionLengthPoints, getPurchaseDayPoints, getPurchaseTimePoints} from '../PointAggregators.mjs';
+  getItemCountPoints, getItemDescriptionLengthPoints, getPurchaseDayPoints, getPurchaseTimePoints} from '../src/PointAggregators.mjs';
 
 describe('ReceiptPoints', () => {
   let RECEIPT_MM;

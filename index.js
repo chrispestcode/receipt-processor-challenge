@@ -1,10 +1,10 @@
 import express from 'express';
 import bodyParser from 'body-parser';
-import {receiptPostvalidator, receiptGetValidator} from './ReceiptValidator.mjs';
+import {receiptPostvalidator, receiptGetValidator} from './src/ReceiptValidator.mjs';
 import { checkSchema, validationResult, matchedData } from 'express-validator';
-import ItemValidator from './ItemValidator.mjs';
-import ReceiptPoints from './ReceiptPoints.mjs';
-import RedisClient from './RedisClient.mjs';
+import ItemValidator from './src/ItemValidator.mjs';
+import ReceiptPoints from './src/ReceiptPoints.mjs';
+import RedisClient from './src/RedisClient.mjs';
 
 const app = express();
 app.use(bodyParser.json());

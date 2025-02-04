@@ -13,6 +13,7 @@
     "example": "examples"
   },
   "scripts": {
+    "start": "node index.js",
     "test": "jest __tests__",
     "test:e2e": "jest e2e/index.spec.js",
     "dev": "nodemon index.js"
